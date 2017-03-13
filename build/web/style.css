@@ -1,0 +1,187 @@
+/* Feuille de style IdoLogis v1 */
+
+/* Formats globaux */
+
+a {
+	color:#345AC3;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	background-color: #fff;
+	
+background-repeat:no-repeat;
+}
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+/* Classes */
+
+
+
+div.accueil {
+	display:block;
+	width:700px;
+	margin: 20px auto auto auto;
+	padding:7px;
+	border:1px solid #000;	
+	color:#000;
+	
+}
+div.conteneur {
+	width:790px;
+	margin: 20px auto auto auto;
+	padding:5px;
+	background-color:#FFFFFF;
+	border:1px solid #F9DD0F;
+}
+img.bien {
+	width:500px;
+}
+img.menu {
+	border:0;
+}
+p.centre {
+	text-align:center;
+}
+p.coord {
+	
+	color: #000;
+	font-size:12px;
+	font-style:italic;
+}
+table.liste {
+	width:700px;
+	margin:auto;
+	border:1px solid #000000;
+	text-align:center;
+}
+table.liste  th{
+	background-color:#BF3413;
+	color:#000;
+}
+
+/* Formats indépendants */
+
+a#menu_accueil {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+	display: block;
+}
+a#menu_contact {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+}
+a#menu_locations {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+}
+a#menu_ventes {
+	display:relative;
+	float:left;
+	width:130px;
+	height:100px;
+}
+div#bandeau {
+	width:800px;
+	overflow: hidden;
+}
+div#bandeau_logo1 {
+	top:0px;
+	left:0px;
+	width:224px;
+	height:100px;
+}
+div#bandeau_logo {
+	top:50px;
+	left:0px;
+	width:224px;
+	height:100px;
+}
+div#bandeau_menu {
+	top:50px;
+	left:224px;
+	width:100%;
+	height:50px;	
+}
+div#copyright {
+	text-align: center;
+	color:#000000;
+	font-size: 11px;
+}
+
+div#admin {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+div#formulaire {
+	text-align: left;
+	top: 150px;
+}
+
+label {
+	text-align: right;
+	display: inline-block;
+	min-width: 120px;
+	max-width: 120px;
+}
+
+p {
+	text-align: center;
+	
+}
+#form {
+	text-align: right;
+	top: 150px;
+}
+
+div#tableau {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+div#tableau th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2gjh1nPI/AAAAAAAACbg/7lNsVpks2oY/s1600/gradhead.png') repeat-x;
+    border-top: 2px solid #d3ddff;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+div#tableau td {
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid #fff;
+    background: #e8edff url('http://1.bp.blogspot.com/_xDpoN6UfFFY/S-J2f5yBC3I/AAAAAAAACbY/zWXYXsR-w5E/s1600/gradback.png') repeat-x;
+}
+div#tableau tfoot tr td {
+    background: #e8edff;
+    font-size: 16px;
+    color: #99c;
+    text-align:center;
+}
+div#tableau tbody tr:hover td {
+    background: #d0dafd url('http://4.bp.blogspot.com/_xDpoN6UfFFY/S-J2hsztUzI/AAAAAAAACbo/ztV1CK0RUrE/s1600/gradhover.png') repeat-x;
+    color: #339;
+}
+div#tableau a:hover {
+    text-decoration:underline;
+}
